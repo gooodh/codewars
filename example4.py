@@ -1,10 +1,11 @@
 def find_it(n):
     list_w = n.split(' ')
     dict1 = {}
-    tot = 0
+
     for i in list_w:
         int_w = int(i)
         int_ww = int_w
+        tot = 0
 
         while int_w > 0:
             dig = int_w % 10
